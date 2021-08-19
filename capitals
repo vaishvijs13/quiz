@@ -7,7 +7,7 @@ if answer == "Yes":
 elif answer == "No":
     print("Sorry, that is incorrect. Moving on...")
 else:
-    print("We do not recognize your answer.")
+    print("We do not recognize your answer. Remember to only answer with 'Yes' or 'No.'")
 
 answer_2 = input("Is Rio de Janeiro the capital of Brazil?")
 if answer_2 == "No":
@@ -20,7 +20,7 @@ else:
 answer_3 = input("Last question! What is the capital of Australia?")
 if answer_3 == "Canberra":
     print("Correct!")
-elif answer_2 == "Sydney":
+elif answer_3 == "Sydney":
     print("Sorry that is incorrect! Although many people think that the capital of Australia is Sydney, it is actually Canberra.")
 else:
     print("Sorry that is incorrect!")
