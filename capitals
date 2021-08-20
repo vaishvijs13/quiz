@@ -13,7 +13,7 @@ answer_2 = input("Is Rio de Janeiro the capital of Brazil?")
 if answer_2 == "No":
     print("Correct! The real capital of Brazil is Brasilia. Moving on...")
 elif answer_2 == "Yes":
-    print("Sorry, that is incorrect.")
+    print("Sorry, that is incorrect. The real capital of Brazil is Brasilia.")
 else:
     print("We do not recognize your answer. Remember to only answer with 'Yes' or 'No.'")
     
