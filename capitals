@@ -1,6 +1,6 @@
 name = input("Name: ")
 print("Hello {}".format(name))
-print("We will begin the first quiz. There will be 3 questions about capital cities around the world. Answer with 'Yes' or 'No' for the first two questions! Ready, set go!")
+print("We will begin the quiz. There will be 3 questions about capital cities around the world. Answer with 'Yes' or 'No' for the first two questions! Ready, set go!")
 answer = input("Is Ottawa the capital of Canada?")
 if answer == "Yes":
     print("Correct! Moving on...")
